@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "skyreview",
+  "version": "${version}",
+  "name": "SkyReview",
+  "description": "SkyReview - SkyBlock Player Rating & Review Mod",
+  "authors": [
+    "freezingfield"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/KpVndhhNDr",
+    "sources": "https://github.com/freezingfieldjke/SkyReview",
+    "discord": "https://discord.gg/KpVndhhNDr"
+  },
+  "license": "LGPL-2.1-only",
+  "icon": "assets/skyblockrating/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.skyblockrating.SkyBlockRatingMod"
+    ],
+    "client": [
+      "com.skyblockrating.client.SkyBlockRatingClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
