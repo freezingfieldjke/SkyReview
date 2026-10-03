@@ -41,7 +41,7 @@ gradlew.bat build -x test
 ./gradlew build -x test
 ```
 
-The compiled file is saved to `build/libs/SkyReview-1.0.0.jar`.
+The compiled file is saved to `build/libs/SkyReview-26.1.2-0.9.9.jar`.
 
 ## Community
 

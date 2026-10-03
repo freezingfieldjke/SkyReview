@@ -49,16 +49,16 @@ public class RatingStorage {
         public List<com.skyblockrating.data.UserProfileEntry> userProfiles = new ArrayList<>();
         public boolean modDisabled = false;
         public String disabledReason = "Mod is temporarily disabled for maintenance.";
-        public String minModVersion = "1.0.0";
-        public String latestModVersion = "1.0.0";
+        public String minModVersion = "0.9.0";
+        public String latestModVersion = "0.9.9";
         public String updateUrl = "https://discord.gg/KpVndhhNDr";
     }
 
     private static volatile boolean modDisabled = false;
     private static volatile String disabledReason = "Mod is temporarily disabled for maintenance.";
     private static volatile boolean modOutdated = false;
-    private static volatile String minRequiredVersion = "1.0.0";
-    private static volatile String latestVersion = "1.0.0";
+    private static volatile String minRequiredVersion = "0.9.0";
+    private static volatile String latestVersion = "0.9.9";
     private static volatile String updateUrl = "https://discord.gg/KpVndhhNDr";
 
     public static boolean isModOutdated() {

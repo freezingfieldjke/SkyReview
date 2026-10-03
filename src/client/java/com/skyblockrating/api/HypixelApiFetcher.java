@@ -164,8 +164,8 @@ public class HypixelApiFetcher {
                 String profilesUrl = com.skyblockrating.storage.RatingStorage.getWorkerUrl() + "/api/hypixel/profiles?uuid=" + rawUuid;
                 HttpRequest.Builder reqBuilder = HttpRequest.newBuilder()
                     .uri(URI.create(profilesUrl))
-                    .header("User-Agent", "SkyReview/1.0 (Minecraft Mod)")
-                    .header("x-mod-version", "1.0.0")
+                    .header("User-Agent", "SkyReview/0.9.9 (Minecraft Mod)")
+                    .header("x-mod-version", "0.9.9")
                     .GET();
 
                 String customKey = ModConfig.getCustomHypixelApiKey();
